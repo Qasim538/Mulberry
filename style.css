@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner total size */
+#banner {
+    width: 300px;
+    height: 600px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#logo {
+    position: absolute;
+    top: 172px;
+    width: 199px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+#carousel {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
