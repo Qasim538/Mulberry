@@ -61,3 +61,24 @@ body {
     left: 110px;
     border-bottom: 1px solid #000;
 }
+
+#arrow-left,
+#arrow-right {
+    position: absolute;
+    top: 22%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+#arrow-left img,
+#arrow-right img {
+    height: 12px;
+}
+
+#arrow-left {
+    /* left: 5px; */
+    transform: rotate(180deg);
+}
+
+#arrow-right {
+    right: 16px;
+}
